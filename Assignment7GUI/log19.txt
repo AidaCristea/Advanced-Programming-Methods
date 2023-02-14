@@ -1,0 +1,1020 @@
+Id: 1
+Execution stack: 
+[(int v|(int x|(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))))))]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int x|(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))))), int v]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int x|(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))))), int v]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int x|(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))))))]
+Symbol table: 
+{v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int x|(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))))))]
+Symbol table: 
+{v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))))), int x]
+Symbol table: 
+{v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))))), int x]
+Symbol table: 
+{v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))))]
+Symbol table: 
+{v=0, x=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int y|(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))))]
+Symbol table: 
+{v=0, x=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))), int y]
+Symbol table: 
+{v=0, x=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))), int y]
+Symbol table: 
+{v=0, x=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))))]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(v=0|(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))))]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))), v=0]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))), v=0]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)|(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))))]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), repeat((Fork((print(v)|v=v - 1))|v=v + 1)) until (v == 3)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), ((Fork((print(v)|v=v - 1))|v=v + 1)|While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)})]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), ((Fork((print(v)|v=v - 1))|v=v + 1)|While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)})]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, (Fork((print(v)|v=v - 1))|v=v + 1)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, (Fork((print(v)|v=v - 1))|v=v + 1)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v - 1))]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v - 1))]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 2
+Execution stack: 
+[(print(v)|v=v - 1)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 2
+Execution stack: 
+[(print(v)|v=v - 1)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 2
+Execution stack: 
+[v=v - 1, print(v)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 2
+Execution stack: 
+[v=v - 1, print(v)]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, (Fork((print(v)|v=v - 1))|v=v + 1)]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 2
+Execution stack: 
+[v=v - 1]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, (Fork((print(v)|v=v - 1))|v=v + 1)]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 2
+Execution stack: 
+[v=v - 1]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v - 1))]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 2
+Execution stack: 
+[]
+Symbol table: 
+{v=-1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v - 1))]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 3
+Execution stack: 
+[(print(v)|v=v - 1)]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 3
+Execution stack: 
+[(print(v)|v=v - 1)]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 3
+Execution stack: 
+[v=v - 1, print(v)]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 3
+Execution stack: 
+[v=v - 1, print(v)]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, (Fork((print(v)|v=v - 1))|v=v + 1)]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 3
+Execution stack: 
+[v=v - 1]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, (Fork((print(v)|v=v - 1))|v=v + 1)]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 3
+Execution stack: 
+[v=v - 1]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v - 1))]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 3
+Execution stack: 
+[]
+Symbol table: 
+{v=0, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v - 1))]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(print(v)|v=v - 1)]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(print(v)|v=v - 1)]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}]
+Symbol table: 
+{v=3, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[v=v - 1, print(v)]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10))))), While(!(v == 3)){(Fork((print(v)|v=v - 1))|v=v + 1)}]
+Symbol table: 
+{v=3, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[v=v - 1, print(v)]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))]
+Symbol table: 
+{v=3, x=0, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[v=v - 1]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(x=1|(NopStatement|(y=3|(NopStatement|print(v * 10)))))]
+Symbol table: 
+{v=3, x=0, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[v=v - 1]
+Symbol table: 
+{v=2, x=0, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|(y=3|(NopStatement|print(v * 10)))), x=1]
+Symbol table: 
+{v=3, x=0, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[]
+Symbol table: 
+{v=1, x=0, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|(y=3|(NopStatement|print(v * 10)))), x=1]
+Symbol table: 
+{v=3, x=0, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|(y=3|(NopStatement|print(v * 10))))]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|(y=3|(NopStatement|print(v * 10))))]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(y=3|(NopStatement|print(v * 10))), NopStatement]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(y=3|(NopStatement|print(v * 10))), NopStatement]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(y=3|(NopStatement|print(v * 10)))]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(y=3|(NopStatement|print(v * 10)))]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|print(v * 10)), y=3]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|print(v * 10)), y=3]
+Symbol table: 
+{v=3, x=1, y=0}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|print(v * 10))]
+Symbol table: 
+{v=3, x=1, y=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(NopStatement|print(v * 10))]
+Symbol table: 
+{v=3, x=1, y=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(v * 10), NopStatement]
+Symbol table: 
+{v=3, x=1, y=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(v * 10), NopStatement]
+Symbol table: 
+{v=3, x=1, y=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(v * 10)]
+Symbol table: 
+{v=3, x=1, y=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(v * 10)]
+Symbol table: 
+{v=3, x=1, y=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[]
+Symbol table: 
+{v=3, x=1, y=3}
+Output list: 
+[0, 1, 2, 30]
+File table: 
+{}
+Heap: 
+{}
+

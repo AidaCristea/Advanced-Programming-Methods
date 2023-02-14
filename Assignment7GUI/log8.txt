@@ -1,0 +1,216 @@
+Id: 4
+Execution stack: 
+[(Ref(int) v|(New(v,20)|(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5)))))]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(New(v,20)|(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5)))), Ref(int) v]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(New(v,20)|(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5)))), Ref(int) v]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(New(v,20)|(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5))))]
+Symbol table: 
+{v=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(New(v,20)|(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5))))]
+Symbol table: 
+{v=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5))), New(v,20)]
+Symbol table: 
+{v=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5))), New(v,20)]
+Symbol table: 
+{v=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 4
+Execution stack: 
+[(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5)))]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[(print(ReadHeap(v))|(WriteHeap(v,30)|print(ReadHeap(v) + 5)))]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[(WriteHeap(v,30)|print(ReadHeap(v) + 5)), print(ReadHeap(v))]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[(WriteHeap(v,30)|print(ReadHeap(v) + 5)), print(ReadHeap(v))]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[(WriteHeap(v,30)|print(ReadHeap(v) + 5))]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[20]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[(WriteHeap(v,30)|print(ReadHeap(v) + 5))]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[20]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[print(ReadHeap(v) + 5), WriteHeap(v,30)]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[20]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[print(ReadHeap(v) + 5), WriteHeap(v,30)]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[20]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[print(ReadHeap(v) + 5)]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[20]
+File table: 
+{}
+Heap: 
+{1=30}
+
+Id: 4
+Execution stack: 
+[print(ReadHeap(v) + 5)]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[20]
+File table: 
+{}
+Heap: 
+{1=30}
+
+Id: 4
+Execution stack: 
+[]
+Symbol table: 
+{v=(1,int)}
+Output list: 
+[20, 35]
+File table: 
+{}
+Heap: 
+{1=30}
+

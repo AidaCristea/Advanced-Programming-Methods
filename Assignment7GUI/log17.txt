@@ -1,0 +1,828 @@
+Id: 1
+Execution stack: 
+[(Ref(int) a|(New(a,20)|(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a))))))]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(New(a,20)|(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a))))), Ref(int) a]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(New(a,20)|(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a))))), Ref(int) a]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(New(a,20)|(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a)))))]
+Symbol table: 
+{a=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(New(a,20)|(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a)))))]
+Symbol table: 
+{a=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a)))), New(a,20)]
+Symbol table: 
+{a=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a)))), New(a,20)]
+Symbol table: 
+{a=(0,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a))))]
+Symbol table: 
+{a=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[(int v|(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a))))]
+Symbol table: 
+{a=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a))), int v]
+Symbol table: 
+{a=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a))), int v]
+Symbol table: 
+{a=(1,int)}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[(for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}|print(ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), for(v=0;v<3;v=v + 1) {Fork((print(v)|v=v * ReadHeap(a)))}]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), (v=0|While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)})]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), (v=0|While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)})]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=0]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=0]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, (Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, (Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v * ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v * ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 2
+Execution stack: 
+[(print(v)|v=v * ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 2
+Execution stack: 
+[(print(v)|v=v * ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 2
+Execution stack: 
+[v=v * ReadHeap(a), print(v)]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 2
+Execution stack: 
+[v=v * ReadHeap(a), print(v)]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, (Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 2
+Execution stack: 
+[v=v * ReadHeap(a)]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, (Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 2
+Execution stack: 
+[v=v * ReadHeap(a)]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v * ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 2
+Execution stack: 
+[]
+Symbol table: 
+{a=(1,int), v=0}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v * ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 3
+Execution stack: 
+[(print(v)|v=v * ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 3
+Execution stack: 
+[(print(v)|v=v * ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 3
+Execution stack: 
+[v=v * ReadHeap(a), print(v)]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 3
+Execution stack: 
+[v=v * ReadHeap(a), print(v)]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, (Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 3
+Execution stack: 
+[v=v * ReadHeap(a)]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, (Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 3
+Execution stack: 
+[v=v * ReadHeap(a)]
+Symbol table: 
+{a=(1,int), v=1}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v * ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 3
+Execution stack: 
+[]
+Symbol table: 
+{a=(1,int), v=20}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1, Fork((print(v)|v=v * ReadHeap(a)))]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[(print(v)|v=v * ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}, v=v + 1]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[(print(v)|v=v * ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=3}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[v=v * ReadHeap(a), print(v)]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a)), While(v < 3){(Fork((print(v)|v=v * ReadHeap(a)))|v=v + 1)}]
+Symbol table: 
+{a=(1,int), v=3}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[v=v * ReadHeap(a), print(v)]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[v=v * ReadHeap(a)]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[print(ReadHeap(a))]
+Symbol table: 
+{a=(1,int), v=3}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[v=v * ReadHeap(a)]
+Symbol table: 
+{a=(1,int), v=2}
+Output list: 
+[0, 1, 2]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 1
+Execution stack: 
+[]
+Symbol table: 
+{a=(1,int), v=3}
+Output list: 
+[0, 1, 2, 20]
+File table: 
+{}
+Heap: 
+{1=20}
+
+Id: 4
+Execution stack: 
+[]
+Symbol table: 
+{a=(1,int), v=40}
+Output list: 
+[0, 1, 2, 20]
+File table: 
+{}
+Heap: 
+{1=20}
+

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane style="-fx-background-color: #df99c1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ProgramExecutorController">
+   <top>
+      <HBox BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+         <children>
+            <Label text="Number of ProgramStates">
+               <font>
+                  <Font name="Ebrima" size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="nrPrgStatesTextField" editable="false" promptText="Number of ProgramStates">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="200.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <children>
+            <Label text="Heap">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="80.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TableView fx:id="heapTableView">
+              <columns>
+                <TableColumn fx:id="addressColumn" prefWidth="75.0" text="Address" />
+                <TableColumn fx:id="valueColumn" prefWidth="75.0" text="Value" />
+              </columns>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </TableView>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="100.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+         <children>
+            <Label text="Symbol Table">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="100.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TableView fx:id="symbolTableView" prefHeight="364.0" prefWidth="335.0">
+              <columns>
+                <TableColumn fx:id="variableNameColumn" prefWidth="100.0" text="VariableName" />
+                <TableColumn fx:id="varValueColumn" text="Value" />
+              </columns>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </TableView>
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Execution Stack">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="80.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <ListView fx:id="executionStackListView" prefHeight="360.0" prefWidth="248.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="15.0" right="15.0" top="10.0" />
+               </VBox.margin>
+            </ListView>
+         </children>
+      </VBox>
+   </right>
+   <bottom>
+      <HBox prefHeight="178.0" prefWidth="911.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox>
+               <children>
+                  <Label text="Output">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ListView fx:id="outputListView">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </ListView>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label text="Files">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ListView fx:id="fileTableListView">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </ListView>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label prefHeight="19.0" prefWidth="119.0" text="ProgramState IDs" />
+                  <ListView fx:id="prgStateIdenitifiersListView" onMouseClicked="#changePrgState">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </ListView>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </VBox>
+            <Button fx:id="runOneStepButton" mnemonicParsing="false" onMouseClicked="#runOneStep" text="Run one step">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="150.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

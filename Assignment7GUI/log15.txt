@@ -1,0 +1,408 @@
+Id: 1
+Execution stack: 
+[(Bool b|(int c|(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c)))))))]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int c|(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c)))))), Bool b]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int c|(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c)))))), Bool b]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int c|(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c))))))]
+Symbol table: 
+{b=false}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(int c|(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c))))))]
+Symbol table: 
+{b=false}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c))))), int c]
+Symbol table: 
+{b=false}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c))))), int c]
+Symbol table: 
+{b=false}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c)))))]
+Symbol table: 
+{b=false, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(b=true|(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c)))))]
+Symbol table: 
+{b=false, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c)))), b=true]
+Symbol table: 
+{b=false, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c)))), b=true]
+Symbol table: 
+{b=false, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c))))]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)b)? 100:200|(print(c)|(c=)false)? 100:200|print(c))))]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c))), c=)b)? 100:200]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c))), c=)b)? 100:200]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c))), (IF(b) THEN(c=100)ELSE(c=200))]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c))), (IF(b) THEN(c=100)ELSE(c=200))]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c))), c=100]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c))), c=100]
+Symbol table: 
+{b=true, c=0}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c)))]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(print(c)|(c=)false)? 100:200|print(c)))]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)false)? 100:200|print(c)), print(c)]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)false)? 100:200|print(c)), print(c)]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)false)? 100:200|print(c))]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[(c=)false)? 100:200|print(c))]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c), c=)false)? 100:200]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c), c=)false)? 100:200]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c), (IF(false) THEN(c=100)ELSE(c=200))]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c), (IF(false) THEN(c=100)ELSE(c=200))]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c), c=200]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c), c=200]
+Symbol table: 
+{b=true, c=100}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c)]
+Symbol table: 
+{b=true, c=200}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[print(c)]
+Symbol table: 
+{b=true, c=200}
+Output list: 
+[100]
+File table: 
+{}
+Heap: 
+{}
+
+Id: 1
+Execution stack: 
+[]
+Symbol table: 
+{b=true, c=200}
+Output list: 
+[100, 200]
+File table: 
+{}
+Heap: 
+{}
+
